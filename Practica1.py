@@ -12,3 +12,10 @@ print(f"El {Practica1['club']} ha obtenido la liga {Practica1['trofeos']['liga']
 
 # Mi jugador favorito es Jualian alvarez
 print(f"Mi jugador favorito es {Practica1['plantilla']['Delantero'][0]}")
+
+#Jugadores
+print("Plantilla:")
+for posicion in Practica1['plantilla']:
+    print(f"{posicion}")
+    for jugador in Practica1['plantilla'][posicion]:
+        print(f"{jugador}")
